@@ -1,0 +1,91 @@
+body {
+    width: 375px;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.container {
+    height: 700px;
+}
+
+.imgTopo {
+    margin: 0 auto;
+    width: 375px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    box-shadow: 0px 5px #eeececfb;
+}
+
+.imgTopo img {
+    margin: 15px;
+}
+
+.chat {
+    margin-top: 100px;
+}
+
+.mensagens-de-status {
+    background-color: #dcdcdc;
+}
+
+.mensagens-reservadas {
+    background-color: #ffdede;
+}
+
+.mensagens-normais {
+    background-color: #ffffff;
+}
+
+/* .mandar-mensagem-nova {
+    box-shadow: 5px #eeececfb;
+    border: 0 none;
+    outline: 0;
+    width: 368px;
+    height: 70px;
+    align-items: center;
+} */
+
+.rodape {
+    width:375px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+
+.imgRodape{
+    margin-right: 15px;
+}
+.mandar-mensagem-nova ::placeholder{
+
+}
+.mandar-mensagem-nova {
+    border: 0 none;
+    background-color: #ffffff;
+    width: 368px;
+    height: 70px;
+    outline: none;
+    resize: none;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 22px;
+}
