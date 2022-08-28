@@ -59,7 +59,7 @@ header {
 } */
 
 .rodape {
-    width:375px;
+    width: 375px;
     height: 80px;
     display: flex;
     align-items: center;
@@ -71,21 +71,32 @@ header {
     z-index: 1;
 }
 
-.imgRodape{
+.imgRodape {
     margin-right: 15px;
 }
-.mandar-mensagem-nova ::placeholder{
 
+.mandar-mensagem-nova{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
 }
-.mandar-mensagem-nova {
+
+input {
     border: 0 none;
+    font-size: 18px;
+    outline: none;
+    resize: none;
+}
+
+ input::placeholder {
+
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    color: #000000;
+   
     background-color: #ffffff;
     width: 368px;
     height: 70px;
-    outline: none;
-    resize: none;
-    font-style: italic;
-    font-weight: 400;
-    font-size: 18px;
     margin-left: 22px;
 }
