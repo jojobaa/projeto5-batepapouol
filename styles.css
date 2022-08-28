@@ -35,29 +35,52 @@ header {
 
 .chat {
     margin-top: 100px;
+    overflow: hidden;
 }
 
 .mensagens-de-status {
     background-color: #dcdcdc;
+    height: 40px;
+    display: flex;
+    align-items: center;
 }
 
 .mensagens-reservadas {
     background-color: #ffdede;
+    height: 40px;
+    display: flex;
+    align-items: center;
 }
 
 .mensagens-normais {
     background-color: #ffffff;
+    height: 40px;
+    display: flex;
+    align-items: center;
 }
 
-/* .mandar-mensagem-nova {
-    box-shadow: 5px #eeececfb;
-    border: 0 none;
-    outline: 0;
-    width: 368px;
-    height: 70px;
-    align-items: center;
-} */
+.tempo{
+    font-size: 14px;
+    color: #aaaaaa;
+    margin-right: 5px;
+}
 
+.nome{
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 700;
+}
+.mensagem{
+    font-size: 14px;
+    margin-right: 5px;
+}
+.destino{
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 700;
+}
 .rodape {
     width: 375px;
     height: 80px;
