@@ -35,26 +35,31 @@ header {
 
 .chat {
     margin-top: 100px;
+    height: auto;
     overflow: hidden;
+    position: relative;
 }
 
 .mensagens-de-status {
     background-color: #dcdcdc;
-    height: 40px;
+    padding-bottom: 20px;
+    height: auto;
     display: flex;
     align-items: center;
 }
 
 .mensagens-reservadas {
     background-color: #ffdede;
-    height: 40px;
+    padding-bottom: 20px;
+    height: auto;
     display: flex;
     align-items: center;
 }
 
 .mensagens-normais {
     background-color: #ffffff;
-    height: 40px;
+    padding-bottom: 20px;
+    height: auto;
     display: flex;
     align-items: center;
 }
