@@ -42,7 +42,8 @@ header {
 
 .mensagens-de-status {
     background-color: #dcdcdc;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     height: auto;
     display: flex;
     align-items: center;
@@ -50,7 +51,8 @@ header {
 
 .mensagens-reservadas {
     background-color: #ffdede;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     height: auto;
     display: flex;
     align-items: center;
@@ -58,7 +60,8 @@ header {
 
 .mensagens-normais {
     background-color: #ffffff;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     height: auto;
     display: flex;
     align-items: center;
