@@ -10,7 +10,7 @@ function recebeNome() {
             name: nomeUsuario
         }
     );
-    
+
     promessa.catch(erroDados);
 }
 
@@ -23,20 +23,17 @@ function erroDados() {
 
 //........................................................................................................
 
-const segundaPromessa = axios.post('https://mock-api.driven.com.br/api/v6/uol/status',
-    {
-        name: nomeUsuario
-    }
-);
-
 setInterval(manterConexao, 5000);
 
 function manterConexao() {
-     segundaPromessa = axios.post('https://mock-api.driven.com.br/api/v6/uol/status',
+     const segundaPromessa = axios.post('https://mock-api.driven.com.br/api/v6/uol/status',
         {
             name: nomeUsuario
         }
     );
+    segundaPromessa.catch(erroSegundaPromessa);
+}
+function erroSegundaPromessa(){
 }
 
 function conseguirMenssagens() {
